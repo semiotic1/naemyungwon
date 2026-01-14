@@ -54,14 +54,26 @@ export default function AdvancedPage() {
     <div className="grain-overlay">
       {/* Hero Section */}
       <section className="hero-mountain bg-gradient-to-b from-nm-sky-100 via-nm-mist to-nm-mountain relative">
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
-          <p className="text-nm-sky-600 font-medium mb-4 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-center">
+          
+          {/* 줌 면접 안내 버튼 - 제목 위 */}
+          <div className="mb-10 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
+            <Link 
+              href="/advanced/zoom-guide"
+              className="inline-flex items-center gap-3 px-10 py-5 bg-sky-400 hover:bg-sky-500 text-gray-900 text-xl md:text-2xl font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-sky-500"
+            >
+              <Users className="w-7 h-7" />
+              1기 선발을 위한 줌 면접 안내
+            </Link>
+          </div>
+
+          <p className="text-nm-sky-600 font-medium mb-4 animate-fade-in-up opacity-0" style={{ animationDelay: '0.2s' }}>
             내면소통명상 지도자 양성 과정
           </p>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-nm-sky-900 mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: '0.2s' }}>
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-nm-sky-900 mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: '0.3s' }}>
             심화과정 1기
           </h1>
-          <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8 animate-fade-in-up opacity-0" style={{ animationDelay: '0.3s' }}>
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8 animate-fade-in-up opacity-0" style={{ animationDelay: '0.4s' }}>
             <div className="flex items-center gap-2 text-nm-sky-700">
               <Calendar className="w-5 h-5" />
               <span>2026년 3월 11일 개강</span>
