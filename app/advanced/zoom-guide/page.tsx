@@ -19,7 +19,7 @@ export default function ZoomGuidePage() {
             <div className="mb-4">
               <p className="text-nm-sky-600 text-lg mb-2">심화과정 1기 선발을 위한</p>
               <h1 className="font-display text-3xl md:text-4xl font-bold text-nm-sky-900">
-                줌(Zoom) 화상 면접 안내
+                줌(Zoom) 화상 면접 접속 안내 가이드
               </h1>
             </div>
           </div>
@@ -52,21 +52,9 @@ export default function ZoomGuidePage() {
                 <Shield className="w-5 h-5 text-nm-sky-700" />
               </div>
               <div>
-                <h3 className="font-semibold text-nm-sky-800 mb-2">2. 줌(Zoom) 접속 아이디와 패스워드</h3>
+                <h3 className="font-semibold text-nm-sky-800 mb-2">2. 화상면접 프로그램 줌(Zoom) 접속 아이디와 패스워드</h3>
                 <p className="text-nm-sky-700">
-                  줌 접속을 위한 회의실 ID와 암호는 <strong>배정된 면접시간 1시간 전</strong>에 문자를 통해 전송해드립니다.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4 p-6 bg-nm-sky-50 rounded-2xl">
-              <div className="w-10 h-10 rounded-xl bg-nm-sky-200 flex items-center justify-center flex-shrink-0">
-                <span className="text-nm-sky-700 font-bold">ID</span>
-              </div>
-              <div>
-                <h3 className="font-semibold text-nm-sky-800 mb-2">3. 본인 배정 번호</h3>
-                <p className="text-nm-sky-700">
-                  문자를 통해 안내해드린 개인별 <strong>[배정 번호]</strong>는 면접 시 본인 확인을 위해 반드시 숙지해주세요.
+                  개인별 면접 번호와 줌 접속을 위한 회의실 ID와 암호는 <strong>배정된 면접시간 1시간 전</strong>에 문자를 통해 전송해드립니다.
                 </p>
               </div>
             </div>
@@ -87,7 +75,7 @@ export default function ZoomGuidePage() {
                   <h3 className="font-semibold text-nm-sky-800 text-lg">이름 설정 규칙 (필수)</h3>
                 </div>
                 <p className="text-nm-sky-700 mb-4">
-                  줌 회의실 입장 시 본인의 이름을 반드시 <strong>[합격 문자 내 포함된 배정번호_성함 일부]</strong>로 설정해 주세요.
+                  줌 회의실 입장 시 본인의 이름을 반드시 <strong>[합격 문자 내 포함된 면접번호_성함 일부]</strong>로 설정해 주세요.
                 </p>
                 <div className="bg-nm-sky-100 rounded-xl p-4">
                   <p className="text-nm-sky-800 font-medium">
@@ -115,7 +103,7 @@ export default function ZoomGuidePage() {
                     </p>
                   </div>
                   <p>
-                    운영자의 안내에 따라 대기하시다가, 본인 차례가 되어 '면접실'로 자동 이동된 후에 카메라와 마이크를 켜주시면 됩니다.
+                    운영자의 안내에 따라 대기하시다가, 본인 차례가 되어 <strong>'면접실'로 자동 이동된 후에</strong> 카메라와 마이크를 켜주시면 됩니다.
                   </p>
                 </div>
               </div>
@@ -124,14 +112,19 @@ export default function ZoomGuidePage() {
               <div className="border border-nm-sky-200 rounded-2xl p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="w-8 h-8 rounded-full bg-nm-sky-700 text-white flex items-center justify-center font-bold text-sm">3</span>
-                  <h3 className="font-semibold text-nm-sky-800 text-lg">기술 환경 점검</h3>
+                  <h3 className="font-semibold text-nm-sky-800 text-lg">줌 면접 시 주의 사항</h3>
                 </div>
                 <div className="space-y-3 text-nm-sky-700">
                   <p>소음이 없는 독립된 공간에서 접속해 주시고, 기기 배터리 문제를 방지하기 위해 <strong>전원 충전기 연결</strong>을 권장합니다.</p>
-                  <p>줌 사용법 숙지 및 마이크/카메라 사전 테스트는 지원자의 의무입니다.</p>
+                  <p><strong>줌 사용법 숙지 및 마이크/카메라 사전 테스트는 지원자의 의무</strong>입니다.</p>
                   <div className="bg-red-50 border border-red-200 rounded-xl p-4">
                     <p className="text-red-700 text-sm">
                       기기 오작동으로 인해 면접 진행이 어려울 경우, 그로 인한 불이익은 본인에게 귀속됨을 양해 바랍니다.
+                    </p>
+                  </div>
+                  <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mt-4">
+                    <p className="text-amber-800">
+                      면접하는 동안에는 반드시 <strong>카메라를 켜고 말씀만</strong> 하셔야 하며, 다른 자료 제시나 화면 공유는 하실 수 없습니다.
                     </p>
                   </div>
                 </div>
@@ -146,6 +139,7 @@ export default function ZoomGuidePage() {
                 <p className="text-nm-sky-700 mb-4">
                   Zoom 앱이 없으신 분은 <strong>사전에 미리 설치하고 회원 가입</strong>을 해두어야 합니다.
                 </p>
+                <p className="text-nm-sky-600 mb-4">줌 사용이 처음이신 분은 다음 유튜브 영상을 참고하세요:</p>
                 <a 
                   href="https://www.youtube.com/watch?v=8U925VTjOGs"
                   target="_blank"
@@ -160,31 +154,31 @@ export default function ZoomGuidePage() {
                 </a>
               </div>
 
-              {/* 주의사항 5 */}
-              <div className="border border-nm-sky-200 rounded-2xl p-6">
+              {/* 일정 변경 신청 방법 */}
+              <div className="border-2 border-nm-sky-300 rounded-2xl p-6 bg-nm-sky-50">
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="w-8 h-8 rounded-full bg-nm-sky-700 text-white flex items-center justify-center font-bold text-sm">5</span>
+                  <Calendar className="w-6 h-6 text-nm-sky-700" />
                   <h3 className="font-semibold text-nm-sky-800 text-lg">일정 변경 신청 방법</h3>
                 </div>
                 <p className="text-nm-sky-700 mb-4">
                   개인 사정으로 인해 지정된 일시에 참여가 곤란하신 분에 한해 일정 변경 신청이 가능합니다.
                 </p>
-                <div className="bg-nm-sky-50 rounded-xl p-5 space-y-4">
+                <div className="bg-white rounded-xl p-5 space-y-4">
                   <div>
-                    <p className="font-semibold text-nm-sky-800 mb-2">신청 방법</p>
+                    <p className="font-semibold text-nm-sky-800 mb-2">▷ 신청 방법</p>
                     <p className="text-nm-sky-700">
                       <strong>1월 19일 오후 5시까지</strong> 이메일(<a href="mailto:official@joohankim.org" className="text-nm-sky-600 underline">official@joohankim.org</a>)로 면접 가능한 일정으로 변경 신청
                     </p>
                   </div>
                   <div>
-                    <p className="font-semibold text-nm-sky-800 mb-2">면접 가능한 일정</p>
+                    <p className="font-semibold text-nm-sky-800 mb-2">▷ 면접 가능한 일정</p>
                     <p className="text-nm-sky-700">
                       1월 22일, 23일, 24일, 25일 중 <strong>14:00~17:00</strong> 또는 <strong>20:00~22:00</strong>
                     </p>
                   </div>
                   <div>
-                    <p className="font-semibold text-nm-sky-800 mb-2">메일 제목 형식</p>
-                    <p className="bg-white px-4 py-2 rounded-lg text-nm-sky-700 inline-block">
+                    <p className="font-semibold text-nm-sky-800 mb-2">▷ 메일 제목 형식</p>
+                    <p className="bg-nm-sky-100 px-4 py-2 rounded-lg text-nm-sky-700 inline-block">
                       [심화과정 면접 일정 변경 요청] 지원자 성함
                     </p>
                   </div>
