@@ -54,7 +54,7 @@ export default function ZoomGuidePage() {
               <div>
                 <h3 className="font-semibold text-nm-sky-800 mb-2">2. 화상면접 프로그램 줌(Zoom) 접속 아이디와 패스워드</h3>
                 <p className="text-nm-sky-700">
-                  개인별 면접 번호와 줌 접속을 위한 회의실 ID와 암호는 <strong>배정된 면접시간 1시간 전</strong>에 문자를 통해 전송해드립니다.
+                  <strong>개인별 면접 번호</strong>와 줌 접속을 위한 <strong>회의실 ID와 암호</strong>는 배정된 <strong>면접시간 1시간 전</strong>에 문자를 통해 전송해드립니다.
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function ZoomGuidePage() {
                   <h3 className="font-semibold text-nm-sky-800 text-lg">이름 설정 규칙 (필수)</h3>
                 </div>
                 <p className="text-nm-sky-700 mb-4">
-                  줌 회의실 입장 시 본인의 이름을 반드시 <strong>[합격 문자 내 포함된 면접번호_성함 일부]</strong>로 설정해 주세요.
+                  줌 접속 후에 줌 화면에 나타나게 될 본인의 이름을 반드시 <strong>[개인별 면접번호_성함 일부]</strong>로 변경해주세요.
                 </p>
                 <div className="bg-nm-sky-100 rounded-xl p-4">
                   <p className="text-nm-sky-800 font-medium">
