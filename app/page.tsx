@@ -5,17 +5,16 @@ export default function Home() {
   return (
     <div className="grain-overlay">
       {/* Hero Section */}
-      <section className="hero-mountain bg-gradient-to-b from-nm-sky-100 via-nm-mist to-nm-mountain relative">
+      <section className="hero-mountain relative">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 text-center">
-          <p className="text-nm-sky-600 font-medium mb-4 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
-            내면소통연구소 산하 교육기관
+          <p className="text-slate-700 font-medium mb-4 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
+            명상하는 나라를 위해서
           </p>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-nm-sky-900 mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: '0.2s' }}>
-            명상하는 나라를 향해
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: '0.2s' }}>
+            내면소통명상교육원 (내명원)
           </h1>
-          <p className="text-lg md:text-xl text-nm-sky-700 max-w-2xl mx-auto mb-10 animate-fade-in-up opacity-0" style={{ animationDelay: '0.3s' }}>
-            뇌과학 기반의 내면소통명상 전문가를 양성하는<br className="hidden sm:block" />
-            <span className="font-semibold">내면소통명상교육원</span>
+          <p className="text-lg md:text-xl text-slate-700 max-w-2xl mx-auto mb-10 animate-fade-in-up opacity-0" style={{ animationDelay: '0.3s' }}>
+            뇌과학 기반의 내면소통명상 전문가 양성 교육기관
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up opacity-0" style={{ animationDelay: '0.4s' }}>
             <Link href="/advanced" className="btn-primary">
@@ -150,7 +149,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <blockquote className="text-lg md:text-xl text-nm-sky-700 leading-relaxed mb-6 font-display italic">
+                <blockquote className="text-lg md:text-xl text-nm-sky-700 leading-relaxed mb-6">
                   "진정한 명상 지도자는 타인에게 명상을 안내하기 전에, 
                   먼저 스스로 텅 빈 고요함 속에서 머물 수 있는 존재가 되어야 합니다. 
                   명상 지도자는 누군가에게 행복을 전달하기 전에, 
